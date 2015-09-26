@@ -1,0 +1,9 @@
+map <space> /
+map <c-space> ?
+noremap <CR> :let @/ = ""<CR><CR>
+set hlsearch ignorecase smartcase
+
+syntax on
+set shiftwidth=2 tabstop=2 softtabstop=2 backspace=2
+set number
+filetype indent plugin on
